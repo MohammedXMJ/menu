@@ -1,0 +1,199 @@
+:root{
+    --font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --font-color : #cbd3db ;
+    --font-info : Arial, Helvetica, sans-serif;
+    --width : 155px
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("/background.png") no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+.cover{
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    font-size: 30px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-bottom: 100px;
+}
+/*************** food prdduct side ******************************/
+/**************************** p1 *******************************/
+section.food div.prduct1 {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+section.food div.prduct1 div.side1 img{
+    background-size: cover;
+    width: var(--width);
+    height: auto;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+section.food div.prduct1 div.side2 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/**************************** p2 *******************************/
+section.food div.prduct2 {
+    margin-top: 20px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 5px;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+section.food div.prduct2 div.side1 img{
+    background-size: cover;
+    width: var(--width);
+    height: auto;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+section.food div.prduct2 div.side2 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/**************************** p3 *******************************/
+section.food div.prduct3 {
+    margin-top: 20px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 5px;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+section.food div.prduct3 div.side1 img{
+    background-size: cover;
+    width: var(--width);
+    height: auto;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+section.food div.prduct3 div.side2 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/**************************** p4 *******************************/
+section.food div.prduct4 {
+    margin-top: 20px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 5px;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+section.food div.prduct4 div.side1 img{
+    background-size: cover;
+    width: var(--width);
+    height: auto;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+section.food div.prduct4 div.side2 {
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/**************************************************************************/
+/**************************************************************************/
+/**************************************************************************/
+a.ar{
+    background: url("../ar.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+a.ar:active{
+    background: url("../ar2.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+.cover2{
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 30px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-bottom: 150px;
+}
+.info {
+    font-size: 14px;
+    color: var(--font-color);
+    font-family: var(--font-info);
+    margin-right: 10px;
+    text-align: center;
+  
+}
+.price {
+    margin-top: 20px;
+    font-size: 16px;
+    color: var(--font-color);
+    font-family: var(--font-info);
+    margin-right: 10px;
+}
+.name{
+    font-size: 22px;
+    color: var(--font-color);
+    font-family: var(--font-family);
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
